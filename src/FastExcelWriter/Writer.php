@@ -1,14 +1,14 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
-use avadim\FastExcelWriter\Exceptions\Exception;
-use avadim\FastExcelWriter\Exceptions\ExceptionFile;
+use Sivolobov\FastExcelWriter\Exceptions\Exception;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionFile;
 
 /**
  * Class Writer
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class Writer
 {
@@ -731,9 +731,9 @@ class Writer
   <xdr:oneCellAnchor>
     <xdr:from>
       <xdr:col>{$image['col_index']}</xdr:col>
-      <xdr:colOff>0</xdr:colOff>
+      <xdr:colOff>20</xdr:colOff>
       <xdr:row>{$image['row_index']}</xdr:row>
-      <xdr:rowOff>0</xdr:rowOff>
+      <xdr:rowOff>38</xdr:rowOff>
     </xdr:from>
     <xdr:ext cx="{$width}" cy="{$height}"/>
     <xdr:pic>
