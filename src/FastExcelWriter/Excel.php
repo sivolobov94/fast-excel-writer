@@ -2,7 +2,7 @@
 
 namespace Sivolobov\FastExcelWriter;
 
-use Sivolobov\FastExcelHelper\Helper;
+use avadim\FastExcelHelper\Helper;
 use Sivolobov\FastExcelWriter\Exceptions\Exception;
 use Sivolobov\FastExcelWriter\Exceptions\ExceptionFile;
 use Sivolobov\FastExcelWriter\Exceptions\ExceptionRangeName;
