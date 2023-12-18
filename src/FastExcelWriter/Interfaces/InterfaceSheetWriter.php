@@ -1,6 +1,6 @@
 <?php
 
-namespace avadim\FastExcelWriter\Interfaces;
+namespace Sivolobov\FastExcelWriter\Interfaces;
 
 interface InterfaceSheetWriter
 {

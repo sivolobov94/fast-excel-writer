@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
 use PHPUnit\Framework\TestCase;
-use avadim\FastExcelReader\Excel as ExcelReader;
+use Sivolobov\FastExcelReader\Excel as ExcelReader;
 
 final class FastExcelWriterTest extends TestCase
 {
@@ -284,7 +284,7 @@ final class FastExcelWriterTest extends TestCase
 
         // Write value to automerged cells
         $area->setValue('A2:K2', $title, $headerStyle);
-        $area->setValue('E3:I3', 'avadim/fast-excel-writer', ['hyperlink' => 'https://github.com/aVadim483/fast-excel-writer', 'align'=>'center']);
+        $area->setValue('E3:I3', 'Sivolobov/fast-excel-writer', ['hyperlink' => 'https://github.com/aVadim483/fast-excel-writer', 'align'=>'center']);
 
         $area
             ->setValue('J4', 'Date:', ['text-align' => 'right'])

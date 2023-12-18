@@ -1,11 +1,11 @@
 <?php
 
-namespace avadim\FastExcelWriter\Exceptions;
+namespace Sivolobov\FastExcelWriter\Exceptions;
 
 /**
  * Class Exception
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class ExceptionRangeName extends Exception
 {

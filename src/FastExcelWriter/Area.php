@@ -1,8 +1,8 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
-use avadim\FastExcelWriter\Exceptions\Exception;
+use Sivolobov\FastExcelWriter\Exceptions\Exception;
 
 /**
  * Class Area
@@ -36,7 +36,7 @@ use avadim\FastExcelWriter\Exceptions\Exception;
  * @method Area applyUnlock(?bool $unlock = true)
  * @method Area applyHide(?bool $hide = true)
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class Area
 {

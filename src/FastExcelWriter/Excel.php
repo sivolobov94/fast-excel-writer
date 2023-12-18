@@ -1,17 +1,17 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
-use avadim\FastExcelHelper\Helper;
-use avadim\FastExcelWriter\Exceptions\Exception;
-use avadim\FastExcelWriter\Exceptions\ExceptionFile;
-use avadim\FastExcelWriter\Exceptions\ExceptionRangeName;
-use avadim\FastExcelWriter\Interfaces\InterfaceBookWriter;
+use Sivolobov\FastExcelHelper\Helper;
+use Sivolobov\FastExcelWriter\Exceptions\Exception;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionFile;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionRangeName;
+use Sivolobov\FastExcelWriter\Interfaces\InterfaceBookWriter;
 
 /**
  * Class Excel
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class Excel implements InterfaceBookWriter
 {

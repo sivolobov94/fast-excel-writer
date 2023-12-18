@@ -78,7 +78,7 @@ Jump To:
 Use `composer` to install **FastExcelWriter** into your project:
 
 ```
-composer require avadim/fast-excel-writer
+composer require Sivolobov/fast-excel-writer
 ```
 
 ## Changes In Version 4

@@ -1,11 +1,11 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
 /**
  * Class Style
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class Style
 {

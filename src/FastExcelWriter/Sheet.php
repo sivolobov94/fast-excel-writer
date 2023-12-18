@@ -1,17 +1,17 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
-use avadim\FastExcelWriter\Exceptions\Exception;
-use avadim\FastExcelWriter\Exceptions\ExceptionAddress;
-use avadim\FastExcelWriter\Exceptions\ExceptionFile;
-use avadim\FastExcelWriter\Exceptions\ExceptionRangeName;
-use avadim\FastExcelWriter\Interfaces\InterfaceSheetWriter;
+use Sivolobov\FastExcelWriter\Exceptions\Exception;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionAddress;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionFile;
+use Sivolobov\FastExcelWriter\Exceptions\ExceptionRangeName;
+use Sivolobov\FastExcelWriter\Interfaces\InterfaceSheetWriter;
 
 /**
  * Class Sheet
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class Sheet implements InterfaceSheetWriter
 {

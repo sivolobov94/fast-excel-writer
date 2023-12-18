@@ -1,13 +1,13 @@
 <?php
 
-namespace avadim\FastExcelWriter;
+namespace Sivolobov\FastExcelWriter;
 
-use avadim\FastExcelWriter\Exceptions\Exception;
+use Sivolobov\FastExcelWriter\Exceptions\Exception;
 
 /**
  * Class WriterBuffer
  *
- * @package avadim\FastExcelWriter
+ * @package Sivolobov\FastExcelWriter
  */
 class WriterBuffer
 {
