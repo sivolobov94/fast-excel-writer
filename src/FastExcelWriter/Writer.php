@@ -733,7 +733,7 @@ class Writer
   <xdr:oneCellAnchor>
     <xdr:from>
       <xdr:col>{$image['col_index']}</xdr:col>
-      <xdr:colOff>{$offsetY}}</xdr:colOff>
+      <xdr:colOff>{$offsetY}</xdr:colOff>
       <xdr:row>{$image['row_index']}</xdr:row>
       <xdr:rowOff>{$offsetX}</xdr:rowOff>
     </xdr:from>
