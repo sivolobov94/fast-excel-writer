@@ -283,10 +283,10 @@ class Excel implements InterfaceBookWriter
     public function setDefaultLocale()
     {
         $this->setLocale('en');
-        $locale = \Locale::getDefault();
+        /*$locale = \Locale::getDefault();
         if ($locale) {
             $this->setLocale($locale);
-        }
+        }*/
     }
 
     /**

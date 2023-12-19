@@ -25,7 +25,6 @@
         "ext-zip": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "ext-intl": "*",
         "avadim/fast-excel-helper": "^1.0"
     },
     "require-dev": {
