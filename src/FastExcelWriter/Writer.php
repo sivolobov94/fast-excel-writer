@@ -726,14 +726,16 @@ class Writer
             $baseName = $image['original'];
             $width = $image['width'] * Excel::EMU_PER_PIXEL;
             $height = $image['height'] * Excel::EMU_PER_PIXEL;
+            $offsetX = $image['offsetX'] * Excel::EMU_PER_PIXEL;
+            $offsetY = $image['offsetY'] * Excel::EMU_PER_PIXEL;
 
             $xmlDrawingString .= <<<EOD
   <xdr:oneCellAnchor>
     <xdr:from>
       <xdr:col>{$image['col_index']}</xdr:col>
-      <xdr:colOff>20</xdr:colOff>
+      <xdr:colOff>{$offsetY}}</xdr:colOff>
       <xdr:row>{$image['row_index']}</xdr:row>
-      <xdr:rowOff>38</xdr:rowOff>
+      <xdr:rowOff>{$offsetX}</xdr:rowOff>
     </xdr:from>
     <xdr:ext cx="{$width}" cy="{$height}"/>
     <xdr:pic>

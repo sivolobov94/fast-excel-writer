@@ -3092,6 +3092,19 @@ class Sheet implements InterfaceSheetWriter
                         $imageData['height'] = $imageStyle['height'];
                     }
                 }
+
+                if (!empty($imageStyle['offsetX'])) {
+                    $imageData['offsetX'] = $imageStyle['offsetX'];
+                } else {
+                    $imageData['offsetX'] = 0;
+                }
+
+                if (!empty($imageStyle['offsetY'])) {
+                    $imageData['offsetY'] = $imageStyle['offsetY'];
+                } else {
+                    $imageData['offsetY'] = 0;
+                }
+
                 $this->media['images'][] = $imageData;
                 $this->_setDimension($rowIdx + 1, $colIdx + 1);
 
